@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-labelledby="t d"><title id="t">End of session</title><desc id="d">A car crosses the finish line.</desc><style>
+text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.run{animation:run 8s cubic-bezier(.45,0,.25,1) infinite}
+@keyframes run{0%{transform:translateX(0)}70%{transform:translateX(1080px)}100%{transform:translateX(1080px)}}
+.tail{transform-box:fill-box;transform-origin:100% 50%;animation:tail 8s cubic-bezier(.45,0,.25,1) infinite}
+@keyframes tail{0%{transform:scaleX(.2);opacity:0}10%{opacity:1}60%{transform:scaleX(1);opacity:1}72%{transform:scaleX(.05);opacity:0}100%{opacity:0}}
+.flag rect{animation:flag 8s steps(1,end) infinite}
+@keyframes flag{0%,69%{opacity:.35}70%,100%{opacity:1}}
+</style><rect x="40" y="40" width="1120" height="1" fill="#D1D9E0"/><g class="flag"><rect x="1124" y="28" width="6" height="6" fill="#1F2328"/><rect x="1136" y="28" width="6" height="6" fill="#1F2328"/><rect x="1130" y="34" width="6" height="6" fill="#1F2328"/><rect x="1124" y="40" width="6" height="6" fill="#1F2328"/><rect x="1136" y="40" width="6" height="6" fill="#1F2328"/><rect x="1130" y="46" width="6" height="6" fill="#1F2328"/></g><g class="run"><rect class="tail" x="-16" y="39" width="56" height="3" fill="#E0321A"/><circle cx="40" cy="40.5" r="5" fill="#E0321A"/></g><text x="40" y="78" font-size="12" fill="#59636E" text-anchor="start" font-weight="700" letter-spacing="3">END OF SESSION</text><text x="1160" y="78" font-size="12" fill="#818B98" text-anchor="end" font-weight="400" letter-spacing="3">SACKEDBALL  /  MUMBAI, IN</text></svg>

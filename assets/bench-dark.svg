@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-labelledby="t d"><title id="t">Section 1: on the bench</title><desc id="d">Section header for what Soham is currently building.</desc><style>
+text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.sh-fill{transform-box:fill-box;transform-origin:0 50%;animation:sh-run 7s cubic-bezier(.7,0,.2,1) infinite}
+@keyframes sh-run{0%{transform:scaleX(0);fill:#FF4A2B}45%{transform:scaleX(1);fill:#FF4A2B}
+55%{fill:#B98CFF}88%{transform:scaleX(1);opacity:1;fill:#B98CFF}100%{transform:scaleX(1);opacity:0;fill:#B98CFF}}
+.sh-in{animation:sh-in .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes sh-in{from{opacity:0;transform:translateX(-14px)}}
+</style><g transform="translate(0 0)"><g class="sh-in"><rect x="40.5" y="22.5" width="52" height="34" rx="3" fill="none" stroke="#30363D"/><text x="66.5" y="45.5" font-size="16" fill="#B98CFF" text-anchor="middle" font-weight="700" letter-spacing="1">S1</text><text x="114" y="47" font-size="26" fill="#E6EDF3" text-anchor="start" font-weight="600" letter-spacing="5">ON THE BENCH</text></g><text x="1160" y="46" font-size="13" fill="#8B949E" text-anchor="end" font-weight="400" letter-spacing="2" class="sh-in" style="animation-delay:.15s">CURRENTLY BUILDING</text><rect x="40" y="76" width="1120" height="2" fill="#1C2128"/><rect class="sh-fill" x="40" y="76" width="1120" height="2" fill="#FF4A2B"/></g></svg>
